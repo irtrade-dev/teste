@@ -23,7 +23,7 @@ A empresa deverá ser composta por:
 * A listagem de fornecedores deverá conter filtros por Nome, CPF/CNPJ e data de cadastro.
 
 # Acesso ao banco de dados
-* Cadeia de conexão: Server=tcp:irtrade.database.windows.net,1433;Initial Catalog=dbteste;Persist Security Info=False;User ID=irtrade;Password={dbFornecedor00};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+* Cadeia de conexão: Server=tcp:irtrade.database.windows.net,1433;Initial Catalog=dbteste;Persist Security Info=False;User ID=irtrade;Password=dbFornecedor00;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
 # Observação:
 Apenas para conhecimento, aqui trabalhamos com ASP.NET MVC 5 e .NET CORE, WebAPI 2, VS2019, VSCode, Bootstrap, Angular.
