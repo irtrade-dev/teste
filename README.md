@@ -23,7 +23,7 @@ A empresa deverá ser composta por:
 * A listagem de fornecedores deverá conter filtros por Nome, CPF/CNPJ e data de cadastro.
 
 # Observação:
-Apenas para conhecimento, aqui trabalhamos com ASP.NET MVC 5, .NET CORE, WebAPI 1 e 2, VS2019, VSCode, Bootstrap, Angular.
-Para controle de fontes, utilizamos o mercurial (git/hg), hospedado no AzureDevOps.
+Apenas para conhecimento, aqui trabalhamos com ASP.NET MVC 5 e .NET CORE, WebAPI 2, VS2019, VSCode, Bootstrap, Angular.
+Para controle de fontes, utilizamos o AzureDevOps.
 Importante minimizar o uso do Scaffolding (geração automatizada de código), pois o objetivo do teste é analisar o seu conhecimento.
 Questões tecnológicas/frameworks, ficam a sua escolha (sugerimos você utilizar o que mais conhece).
