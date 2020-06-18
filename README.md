@@ -27,3 +27,5 @@ Apenas para conhecimento, aqui trabalhamos com ASP.NET MVC 5 e .NET CORE, WebAPI
 Para controle de fontes, utilizamos o AzureDevOps.
 Importante minimizar o uso do Scaffolding (geração automatizada de código), pois o objetivo do teste é analisar o seu conhecimento.
 Questões tecnológicas/frameworks, ficam a sua escolha (sugerimos você utilizar o que mais conhece).
+
+### * Não há necessidade de criar a UI para o usuário. Apenas criar os end-points para consumo via postman.
