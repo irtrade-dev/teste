@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace IRTrade.Teste.Models.Empresas
+﻿namespace IRTrade.Teste.Models.Empresas
 {
     public class Empresa
     {
-
         //Aqui são as propriedades que o Cadastro de Empresa deve receber.
-        public string Nome { get; set; }
-        public string CNPJ { get; set; }
-        public string UF { get; set; }
+        public string NomeFantasia { get; set; }
+        public string Cnpj { get; set; }
+        public string Uf { get; set; }
 
-        //Aqui são os dados que cada campo do cadastro de empresa irá receber.
-        public Empresa(string nome_empresa, string numcnpj , string estado)
+        /// <summary>
+        /// Aqui são os dados que cada campo do cadastro de empresa irá receber.
+        /// </summary>
+        /// <param name="nomeFantasia"></param>
+        /// <param name="cnpj"></param>
+        /// <param name="uf"></param>
+        public Empresa(string nomeFantasia, string cnpj, string uf)
         {
-            this.Nome = nome_empresa;
-            this.CNPJ = numcnpj;
-            this.UF = estado;
+            NomeFantasia = nomeFantasia;
+            Cnpj = cnpj;
+            Uf = uf;
         }
+
+        public Empresa() { }
     }
 }
