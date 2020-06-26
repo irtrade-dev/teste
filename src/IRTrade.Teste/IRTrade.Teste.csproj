@@ -92,6 +92,7 @@
     </Compile>
     <Compile Include="Models\Empresas\Empresa.cs" />
     <Compile Include="Models\Fornecedores\Fornecedor.cs" />
+    <Compile Include="Models\Telefones\Telefone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
