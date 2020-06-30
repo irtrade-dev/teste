@@ -6,12 +6,12 @@ namespace IRTrade.Teste.Controllers
 {
     public class EmpresasController : ApiController
     {
-        private static List<Empresa> empresas = new List<Empresa>();
 
         [HttpGet]
         public List<Empresa> ChamarListaEmpresa()
         {
+            var empresas = new List<Empresa>();
             return empresas;
         }
-    }
+    } 
 }
