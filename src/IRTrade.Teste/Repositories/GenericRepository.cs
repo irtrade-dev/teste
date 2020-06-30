@@ -3,6 +3,7 @@ using IRTrade.Teste.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IRTrade.Teste.Repositories
 {
@@ -19,32 +20,36 @@ namespace IRTrade.Teste.Repositories
 
         public void Atualizar(T obj)
         {
-            throw new NotImplementedException();
+            _context.Entry(obj).State = EntityState.Modified;
         }
 
         public void Deletar(long id)
         {
-            throw new NotImplementedException();
+            var obj = ObterPorId(id);
+            if(obj != null)
+            {
+                _dbSet.Remove(obj);
+            }
         }
 
         public void Inserir(T obj)
         {
-            throw new NotImplementedException();
+            _dbSet.Add(obj);
         }
 
         public T ObterPorId(long id)
         {
-            throw new NotImplementedException();
+            return _dbSet.Find(id);
         }
 
         public List<T> ObterTodos()
         {
-            throw new NotImplementedException();
+            return _dbSet.ToList();
         }
 
         public void Salvar()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }
