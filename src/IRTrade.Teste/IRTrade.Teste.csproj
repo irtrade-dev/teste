@@ -168,9 +168,9 @@
     <Compile Include="Models\Fornecedores\Fornecedor.cs" />
     <Compile Include="Models\Telefones\Telefone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Empresas\EmpresaRepository.cs" />
-    <Compile Include="Services\Fornecedores\FornecedorRepository.cs" />
-    <Compile Include="Services\GenericRepository.cs" />
+    <Compile Include="Repositories\Empresas\EmpresaRepository.cs" />
+    <Compile Include="Repositories\Fornecedores\FornecedorRepository.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
