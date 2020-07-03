@@ -12,6 +12,5 @@ namespace IRTrade.Teste.Data
         {
 
         }
-
     }
 }

@@ -164,6 +164,7 @@
     <Compile Include="Interfaces\Empresas\IEmpresaRepository.cs" />
     <Compile Include="Interfaces\Fornecedores\IFornecedorRepository.cs" />
     <Compile Include="Interfaces\IGenericRepository.cs" />
+    <Compile Include="Interfaces\Telefones\ITelefoneRepository.cs" />
     <Compile Include="Models\Empresas\Empresa.cs" />
     <Compile Include="Models\Fornecedores\Fornecedor.cs" />
     <Compile Include="Models\Telefones\Telefone.cs" />
@@ -171,6 +172,7 @@
     <Compile Include="Repositories\Empresas\EmpresaRepository.cs" />
     <Compile Include="Repositories\Fornecedores\FornecedorRepository.cs" />
     <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\Telefones\TelefoneRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
